@@ -3,6 +3,9 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 48px 0;
+  @include smallScreen() {
+    justify-content: center;
+  }
 }
 
 .item-especialidades {
@@ -12,6 +15,7 @@
   width: calc(50% - 32px);
   padding: $middle 0;
   text-align: center;
+  min-width: 320px;
 }
 
 .item-especialidades__containerIcon {

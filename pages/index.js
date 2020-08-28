@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '../components/header/Header'
 import Home from '../components/home/Home'
 import Especialidades from '../components/sections/especialidades/Especialidades'
+import SobreMim from '../components/sections/sobre-mim/SobreMim'
 
 export default function Page() {
   return (
@@ -15,6 +16,7 @@ export default function Page() {
       <Header />
       <Home />
       <Especialidades />
+      <SobreMim />
     </>
   )
 }

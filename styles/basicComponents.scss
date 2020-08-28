@@ -33,9 +33,8 @@ img {
 
 .title_section {
   color: $primary;
-  margin-left: 32px;
+  margin-left: 48px;
   position: relative;
-  margin-top: 32px;
   @include fontRegular;
   padding-top: 2px;
   &:after {

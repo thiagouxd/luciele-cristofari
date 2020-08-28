@@ -1,0 +1,24 @@
+{
+  "itensEspecialidades": [
+    {
+      "icon": "calendar",
+      "title": "Crescimento",
+      "paragraphy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non ultricies libero. Phasellus dapibus feugiat leo volutpat sagittis. Donec tellus nisi"
+    },
+    {
+      "icon": "user",
+      "title": "Puberdade",
+      "paragraphy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non ultricies libero. Phasellus dapibus feugiat leo volutpat sagittis. Donec tellus nisi"
+    },
+    {
+      "icon": "calendar",
+      "title": "Crescimento",
+      "paragraphy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non ultricies libero. Phasellus dapibus feugiat leo volutpat sagittis. Donec tellus nisi"
+    },
+    {
+      "icon": "calendar",
+      "title": "Crescimento",
+      "paragraphy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non ultricies libero. Phasellus dapibus feugiat leo volutpat sagittis. Donec tellus nisi"
+    }
+  ]
+}

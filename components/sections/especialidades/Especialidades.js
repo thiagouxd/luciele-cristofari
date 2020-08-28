@@ -1,35 +1,14 @@
 import ItensEspecialidades from "./ItemEspecialidades";
-
-const itensEspecialidades = [{
-  icon: "calendar",
-  title: "Crescimento",
-  paragraphy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non ultricies libero. Phasellus dapibus feugiat leo volutpat sagittis. Donec tellus nisi"
-},
-{
-  icon: "user",
-  title: "Puberdade",
-  paragraphy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non ultricies libero. Phasellus dapibus feugiat leo volutpat sagittis. Donec tellus nisi"
-},
-{
-  icon: "calendar",
-  title: "Crescimento",
-  paragraphy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non ultricies libero. Phasellus dapibus feugiat leo volutpat sagittis. Donec tellus nisi"
-},
-{
-  icon: "calendar",
-  title: "Crescimento",
-  paragraphy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non ultricies libero. Phasellus dapibus feugiat leo volutpat sagittis. Donec tellus nisi"
-},
-]
+import items from "./data.json"
 
 export default function Especialidades() {
   return (
-    <section className="section">
+    <section className="section" id="especialidade">
       <h2 className="title title_section">Especialidades</h2>
 
       <div className="items-especialidades">
-        {itensEspecialidades.map(item => (
-          <ItensEspecialidades
+        {items.itensEspecialidades.map(item => (
+          <ItensEspecialidades key={`itensEspecialidades${items.itensEspecialidades.indexOf(item)}`}
             title={item.title}
             paragraphy={item.paragraphy}
             icon={item.icon} />))}
