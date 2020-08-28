@@ -1,30 +1,56 @@
-import React from "react"
+import React, { Component } from "react"
+import Icon from "feather-icons-react"
 
-export default function Header() {
-  return (
-    <header className="header">
-      <nav className="header__navigation">
-        <a href="#" className="header__logo">
-          <img src="logo.svg" alt="Drª Luciele Cristofari" />
-        </a>
+export default class Header extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      menuEstaAberto: false
+    }
+  }
 
-        <ul className="header__navigationItems">
-          <li>
-            <a href="" className="header__link">Especialidades</a>
-          </li>
-          <li>
-            <a href="" className="header__link">Sobre mim</a>
-          </li>
-          <li>
-            <a href="" className="header__link">Contato</a>
-          </li>
-        </ul>
-        {/* <button onClick={() => abrirMenu()}>Abrir Menu</button> */}
-      </nav>
-    </header>
-  )
-}
+  abrirMenu() {
+    this.setState({
+      menuEstaAberto: true
+    })
+  }
 
-function abrirMenu() {
-  alert('abriu')
+  fecharMenu() {
+    this.setState({
+      menuEstaAberto: false
+    })
+  }
+
+  navegar = (id) => {
+    this.fecharMenu()
+    window.location.hash = id
+  }
+
+  render() {
+    return (
+      <header className="header" >
+        <nav className="header__navigation">
+          <a href="#" className="header__logo">
+            <img src="logo.svg" alt="Drª Luciele Cristofari" />
+          </a>
+
+          <ul className={`header__navigationItems ${this.state.menuEstaAberto && 'header__navigationItems_menu-aberto'}`}>
+            <li>
+              <a onClick={() => this.navegar("especialidade")} className="header__link">Especialidades</a>
+            </li>
+            <li>
+              <a onClick={() => this.navegar("sobre")} className="header__link">Sobre mim</a>
+            </li>
+            <li>
+              <a onClick={() => this.navegar("contato")} className="header__link">Contato</a>
+            </li>
+          </ul>
+          <button className="button button_icon button_hamburger" onClick={() => this.abrirMenu()}>
+            <Icon icon="menu" />
+          </button>
+
+        </nav>
+      </header>
+    )
+  }
 }

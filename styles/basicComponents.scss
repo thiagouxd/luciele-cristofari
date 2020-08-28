@@ -43,6 +43,12 @@ img {
   }
 }
 
+.button_icon {
+  .feather {
+    margin: 0;
+  }
+}
+
 .button_primary {
   background-color: $primary;
   color: $white;
