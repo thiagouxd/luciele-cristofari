@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/header/Header'
 import Home from '../components/home/Home'
+import Especialidades from '../components/sections/especialidades/Especialidades'
 
 export default function Page() {
   return (
@@ -13,6 +14,7 @@ export default function Page() {
 
       <Header />
       <Home />
+      <Especialidades />
     </>
   )
 }

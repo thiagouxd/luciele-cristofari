@@ -1,6 +1,7 @@
 $primary: #70a4a3;
 $secondary: #f7d0c4;
 $white: #fff;
+$gray: rgb(112, 112, 112);
 $black: #000;
 $middle: 16px;
 $small: 8px;
@@ -19,6 +20,7 @@ $font-family: "Baloo Tamma 2";
 @mixin widthDefault {
   width: 100%;
   max-width: 800px;
+  margin: 0 auto;
 }
 
 @mixin smallScreen {

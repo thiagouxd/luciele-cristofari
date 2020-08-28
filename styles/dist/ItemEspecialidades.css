@@ -1,0 +1,11 @@
+.items-especialidades {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-especialidades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}

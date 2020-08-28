@@ -22,6 +22,33 @@ img {
   margin: 0;
 }
 
+.title_primary {
+  color: $primary;
+}
+
+.paragraphy {
+  font-size: $middle;
+  color: $gray;
+}
+
+.title_section {
+  color: $primary;
+  margin-left: 32px;
+  position: relative;
+  margin-top: 32px;
+  @include fontRegular;
+  padding-top: 2px;
+  &:after {
+    content: "";
+    width: 24px;
+    height: 40px;
+    position: absolute;
+    left: -32px;
+    top: 0;
+    background-color: $secondary;
+  }
+}
+
 .button {
   font-family: $font-family;
   padding: $middle;
