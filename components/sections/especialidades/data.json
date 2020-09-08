@@ -1,38 +1,44 @@
 {
   "especialidades": [
     {
-      "icon": "calendar",
       "title": "Crescimento",
-      "paragraphy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non ultricies libero. Phasellus dapibus feugiat leo volutpat sagittis. Donec tellus nisi"
+      "paragraphy": "Falha no crescimento, Baixa estatura, Alta estatura patológica."
     },
     {
-      "icon": "user",
+      "title": "Tireoide",
+      "paragraphy": "hipotireoidismo, hipertireoidismo, avaliação de nódulos."
+    },
+    {
       "title": "Puberdade",
-      "paragraphy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non ultricies libero. Phasellus dapibus feugiat leo volutpat sagittis. Donec tellus nisi"
+      "paragraphy": "Puberdade precoce, puberdade atrasada, excesso de pelos."
     },
     {
-      "icon": "calendar",
-      "title": "Crescimento",
-      "paragraphy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non ultricies libero. Phasellus dapibus feugiat leo volutpat sagittis. Donec tellus nisi"
+      "title": "Obesidade infantil",
+      "paragraphy": "Excesso de peso e doenças associadas."
     },
     {
-      "icon": "calendar",
-      "title": "Crescimento",
-      "paragraphy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non ultricies libero. Phasellus dapibus feugiat leo volutpat sagittis. Donec tellus nisi"
+      "title": "Diabetes",
+      "paragraphy": "Diabetes, pré-diabetes, novas tecnologias no tratamento."
+    },
+    {
+      "title": "Dislipidemia",
+      "paragraphy": "Aumento de triglicerídeos e colesterol."
+    },
+    {
+      "title": "Hipófise e adrenais",
+      "paragraphy": "Hiperplasia adrenal congênita, deficiências hormonais da hipófise, insuficiência adrenal."
+    },
+    {
+      "title": "Metabolismo ósseo",
+      "paragraphy": "Deficiência de vitamina D e do metabolismo do cálcio, osteoporose."
+    },
+    {
+      "title": "Síndromes genéticas",
+      "paragraphy": "Síndrome de Turner, Noonan, Prader-Willi, Silver-Russel, Klinefelter."
+    },
+    {
+      "title": "Diferenciação sexual",
+      "paragraphy": "Micropênis , testículos que não desceram, genital  anormal."
     }
-  ],
-  "tratamentos": [
-    "Diabetes",
-    "Distúrbios de crescimento",
-    "Puberdade Precoce",
-    "Puberdade Tardia",
-    "Deficiência do hormônio de crescimento",
-    "Distúrbio do desenvolvimento sexual",
-    "Doenças do Metabolismo Ósseo",
-    "Doenças da glândula tireóide",
-    "Doenças adrenais",
-    "Obesidade",
-    "Neoplasias Das Glândulas Endócrinas",
-    "Doenças da hipófise"
   ]
 }

@@ -1,21 +1,22 @@
 .items-especialidades {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 48px 0;
-  @include smallScreen() {
-    justify-content: center;
-  }
+  justify-content: center;
+  margin: 48px -16px;
 }
 
 .item-especialidades {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: calc(50% - 32px);
+  width: calc(33.3% - 32px);
   padding: $middle 0;
+  margin: 0 $middle;
   text-align: center;
-  min-width: 320px;
+  min-width: 220px;
+  @include smallScreen() {
+    min-width: 320px;
+  }
 }
 
 .item-especialidades__containerIcon {

@@ -33,17 +33,18 @@ img {
 
 .title_section {
   color: $primary;
-  margin-left: 24px;
+  margin-left: 32px;
   position: relative;
   @include fontRegular;
   padding-top: 2px;
   &:after {
     content: "";
-    width: 24px;
-    height: 40px;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
     position: absolute;
     left: -32px;
-    top: 0;
+    top: 12px;
     background-color: $secondary;
   }
 }
