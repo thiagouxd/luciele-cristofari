@@ -7,6 +7,10 @@
 .carousel__container {
   width: 530px;
   overflow: hidden;
+  @include smallScreen {
+    width: 100%;
+    overflow: auto;
+  }
 }
 
 .carousel__itens {
@@ -27,6 +31,11 @@
   margin: 0 95px;
   border-radius: $middle;
   box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1);
+  @include smallScreen {
+    width: 100%;
+    min-width: 75%;
+    margin: 0 12.5%;
+  }
   blockquote {
     margin: 0;
     text-align: center;
@@ -71,5 +80,8 @@
 
   &:active {
     top: 2px;
+  }
+  @include smallScreen {
+    display: none;
   }
 }

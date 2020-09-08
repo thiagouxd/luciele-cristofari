@@ -9,7 +9,7 @@ export const Carousel = (props) => (
       <div className="carousel__itens">
         {props.depoimentos.map(depoimento => {
           return (
-            <div className="carousel__item">
+            <div className="carousel__item" key={`depoimento${props.depoimentos.indexOf(depoimento)}`}>
               <blockquote>{depoimento.descricao}</blockquote>
               <p>{depoimento.autor}</p>
             </div>
@@ -41,4 +41,3 @@ const movimentar = (sinal) => {
     itens.style.left = `${novaPosicao}px`
   }
 }
-
