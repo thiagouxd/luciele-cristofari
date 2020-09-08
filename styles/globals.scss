@@ -1,6 +1,8 @@
-@import "variables";
-@import "basicComponents";
-@import "Header";
-@import "Home";
-@import "Section";
-@import "ItemEspecialidades";
+@import "basics/variables";
+@import "basics/utilities";
+@import "components/basicComponents";
+@import "components/Header";
+@import "components/Home";
+@import "components/Section";
+@import "components/ItemEspecialidades";
+@import "components/SobreMim";

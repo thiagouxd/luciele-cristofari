@@ -1,0 +1,18 @@
+.sobreMim {
+  background: linear-gradient(93.15deg, #70a4a3 16.78%, #4fbfbd 97.71%);
+
+  .title,
+  .paragraphy {
+    color: $white;
+  }
+
+  .sobreMim__description {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+  }
+  .sobreMim__pic {
+    max-height: 372px;
+  }
+}
