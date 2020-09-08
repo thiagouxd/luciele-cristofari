@@ -36,10 +36,13 @@ export default class Header extends Component {
 
           <ul className={`header__navigationItems ${this.state.menuEstaAberto && 'header__navigationItems_menu-aberto'}`}>
             <li>
-              <a onClick={() => this.navegar("especialidade")} className="header__link">Especialidades</a>
+              <a onClick={() => this.navegar("especialidade")} className="header__link">Sobre a especialidade</a>
             </li>
             <li>
-              <a onClick={() => this.navegar("sobre")} className="header__link">Sobre mim</a>
+              <a onClick={() => this.navegar("sobreMim")} className="header__link">Sobre mim</a>
+            </li>
+            <li>
+              <a onClick={() => this.navegar("depoimentos")} className="header__link">Depoimentos</a>
             </li>
             <li>
               <a onClick={() => this.navegar("contato")} className="header__link">Contato</a>

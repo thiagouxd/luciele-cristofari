@@ -3,8 +3,8 @@ import Icon from "feather-icons-react"
 
 export default function SobreMim() {
   return (
-    <div className="sobreMim">
-      <section className="section section_sobreMim" id="sobreMim">
+    <div className="sobreMim" id="sobreMim">
+      <section className="section section_sobreMim">
         <h2 className="title title_section">Sobre mim</h2>
 
 

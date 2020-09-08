@@ -1,11 +1,11 @@
 import ItensEspecialidades from "./ItemEspecialidades";
-import { especialidades, tratamentos } from "./data.json"
+import { especialidades } from "./data.json"
 
 
 export default function Especialidades() {
   return (
     <section className="section" id="especialidade">
-      <h2 className="title title_section">Sobre especialidades</h2>
+      <h2 className="title title_section">Sobre a especialidade</h2>
       <p className="paragraphy">
         A endocrinologia pediátrica é uma subespecialidade
         médica que requer conhecimentos em pediatria e em endocrinologia.

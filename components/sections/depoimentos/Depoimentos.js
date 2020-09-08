@@ -2,7 +2,7 @@ import { Carousel } from "../../carousel/Carousel";
 import depoimentos from "./data.json"
 
 export const Depoimentos = () => (
-  <div className="depoimentos">
+  <div className="depoimentos" id="depoimentos">
     <section className="section">
       <h2 className="title title_section">Depoimentos</h2>
 
