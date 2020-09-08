@@ -1,4 +1,5 @@
 .section {
   @include widthDefault;
+  padding: 0 $middle;
   padding-top: 48px;
 }

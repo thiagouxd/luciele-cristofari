@@ -1,5 +1,6 @@
 import ItensEspecialidades from "./ItemEspecialidades";
-import items from "./data.json"
+import { especialidades, tratamentos } from "./data.json"
+
 
 export default function Especialidades() {
   return (
@@ -7,12 +8,24 @@ export default function Especialidades() {
       <h2 className="title title_section">Especialidades</h2>
 
       <div className="items-especialidades">
-        {items.itensEspecialidades.map(item => (
-          <ItensEspecialidades key={`itensEspecialidades${items.itensEspecialidades.indexOf(item)}`}
+        {especialidades.map(item => (
+          <ItensEspecialidades key={`especialidades${especialidades.indexOf(item)}`}
             title={item.title}
             paragraphy={item.paragraphy}
             icon={item.icon} />))}
       </div>
+
+      <hr />
+
+      <h2 className="title">
+        Tratamento de condições médicas
+      </h2>
+
+      <ul className="tratamentos-list">
+        {tratamentos.map(item => (
+          <li key={`tratamentos${tratamentos.indexOf(item)}`}>{item}</li>
+        ))}
+      </ul>
     </section>
   )
 }

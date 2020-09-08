@@ -1,5 +1,5 @@
 {
-  "itensEspecialidades": [
+  "especialidades": [
     {
       "icon": "calendar",
       "title": "Crescimento",
@@ -20,5 +20,19 @@
       "title": "Crescimento",
       "paragraphy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non ultricies libero. Phasellus dapibus feugiat leo volutpat sagittis. Donec tellus nisi"
     }
+  ],
+  "tratamentos": [
+    "Diabetes",
+    "Distúrbios de crescimento",
+    "Puberdade Precoce",
+    "Puberdade Tardia",
+    "Deficiência do hormônio de crescimento",
+    "Distúrbio do desenvolvimento sexual",
+    "Doenças do Metabolismo Ósseo",
+    "Doenças da glândula tireóide",
+    "Doenças adrenais",
+    "Obesidade",
+    "Neoplasias Das Glândulas Endócrinas",
+    "Doenças da hipófise"
   ]
 }
