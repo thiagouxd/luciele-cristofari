@@ -1,0 +1,75 @@
+.carousel {
+  display: flex;
+  justify-content: space-between;
+  padding: $xxlarge 0;
+}
+
+.carousel__container {
+  width: 530px;
+  overflow: hidden;
+}
+
+.carousel__itens {
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  padding: 16px 0;
+  left: 0;
+  transition: left cubic-bezier(0.9, 0.12, 0.43, 1.16) 1s;
+}
+
+.carousel__item {
+  position: relative;
+  background-color: $white;
+  padding: $xxlarge $large;
+  min-width: 340px;
+  width: 340px;
+  margin: 0 95px;
+  border-radius: $middle;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1);
+  blockquote {
+    margin: 0;
+    text-align: center;
+    color: $gray;
+    font-weight: 500;
+    margin-bottom: $middle;
+  }
+  p {
+    &:before {
+      content: "-";
+      margin-right: 4px;
+    }
+    text-align: end;
+    color: $primary;
+    margin: 0;
+    font-weight: 600;
+  }
+}
+
+.carousel__button {
+  position: relative;
+  border: 0;
+  outline: 0;
+  display: flex;
+  padding: 8px;
+  margin: auto 0;
+  align-items: center;
+  justify-content: center;
+  color: rgba($white, 0.8);
+  background-color: transparent;
+  cursor: pointer;
+  .feather {
+    width: 72px;
+    height: 72px;
+  }
+
+  &:hover,
+  &:focus {
+    color: $white;
+    background-color: rgba($white, 0.1);
+  }
+
+  &:active {
+    top: 2px;
+  }
+}

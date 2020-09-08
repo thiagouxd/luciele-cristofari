@@ -3,6 +3,7 @@ import Header from '../components/header/Header'
 import Home from '../components/home/Home'
 import Especialidades from '../components/sections/especialidades/Especialidades'
 import SobreMim from '../components/sections/sobre-mim/SobreMim'
+import { Depoimentos } from '../components/sections/depoimentos/Depoimentos'
 
 export default function Page() {
   return (
@@ -18,6 +19,7 @@ export default function Page() {
       <Home />
       <Especialidades />
       <SobreMim />
+      <Depoimentos />
     </>
   )
 }

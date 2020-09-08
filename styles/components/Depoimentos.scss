@@ -1,0 +1,9 @@
+.depoimentos {
+  background-color: $secondary;
+
+  .title_section {
+    &::after {
+      background-color: $primary;
+    }
+  }
+}
