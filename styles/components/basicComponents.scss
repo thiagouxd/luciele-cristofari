@@ -52,7 +52,7 @@ img {
 
 .button {
   font-family: $font-family;
-  padding: $middle;
+  padding: $small $middle;
   border: 0;
   border-radius: $middle;
   font-size: $middle;
@@ -61,7 +61,7 @@ img {
   align-items: center;
   line-height: $middle;
   margin-right: 16px;
-  padding-top: calc(16px + 2px);
+  padding-top: 14px;
   &:active {
     position: relative;
     top: -2px;
@@ -95,5 +95,28 @@ img {
   &:hover,
   &:focus {
     border: 2px solid $white;
+  }
+}
+
+.button_outline {
+  background-color: transparent;
+  color: $primary;
+  border: 2px solid rgba($primary, 0.5);
+  &:hover,
+  &:focus {
+    border: 2px solid $primary;
+  }
+}
+
+.link {
+  color: rgb(19, 157, 221);
+  &:hover,
+  &:focus {
+    position: relative;
+    top: 1px;
+    opacity: 0.8;
+  }
+  .feather {
+    margin-left: 4px;
   }
 }

@@ -4,6 +4,7 @@ import Home from '../components/home/Home'
 import Especialidades from '../components/sections/especialidades/Especialidades'
 import SobreMim from '../components/sections/sobre-mim/SobreMim'
 import { Depoimentos } from '../components/sections/depoimentos/Depoimentos'
+import { Contato } from '../components/sections/contato/Contato'
 
 export default function Page() {
   return (
@@ -20,6 +21,7 @@ export default function Page() {
       <Especialidades />
       <SobreMim />
       <Depoimentos />
+      <Contato />
     </>
   )
 }

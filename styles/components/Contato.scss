@@ -1,0 +1,18 @@
+#contato {
+  margin-bottom: 68px;
+  overflow: hidden;
+}
+
+.title_contato {
+  color: $primary;
+  font-weight: 600;
+}
+
+.paragraphy_contato {
+  display: inline-block;
+  margin-bottom: $large;
+  .icon {
+    margin-right: $small;
+    color: $primary;
+  }
+}

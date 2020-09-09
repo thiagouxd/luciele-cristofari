@@ -28,13 +28,16 @@ export default class Header extends Component {
 
   render() {
     return (
-      <header className="header" >
+      <header className="header" id="home" >
         <nav className="header__navigation">
           <a href="#" className="header__logo">
             <img src="logo.svg" alt="Drª Luciele Cristofari" />
           </a>
 
-          <ul className={`header__navigationItems ${this.state.menuEstaAberto && 'header__navigationItems_menu-aberto'}`}>
+          <ul className={`header__navigationItems ${this.state.menuEstaAberto ? 'header__navigationItems_menu-aberto' : ''}`}>
+            <li>
+              <a onClick={() => this.navegar("home")} className="header__link header__link_mobile">Home</a>
+            </li>
             <li>
               <a onClick={() => this.navegar("especialidade")} className="header__link">Sobre a especialidade</a>
             </li>
