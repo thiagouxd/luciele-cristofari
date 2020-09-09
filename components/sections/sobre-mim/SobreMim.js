@@ -17,19 +17,19 @@ export default function SobreMim() {
               {descricao}
             </p>
 
-            <a href="https://www.facebook.com/lucielendocrinoped" target="_blank"
+            <a href="https://www.facebook.com/lucielendocrinoped" target="_blank" rel="noreferrer"
               className="button button_white button_small u-margin-bottom-middle">
               <Icon icon="facebook" />
               lucielendocrinoped
             </a>
 
-            <a href="https://www.instagram.com/luciele_endocrinoped" target="_blank"
+            <a href="https://www.instagram.com/luciele_endocrinoped" target="_blank" rel="noreferrer"
               className="button button_white button_small u-margin-bottom-middle">
               <Icon icon="instagram" />
               luciele_endocrinoped
             </a>
 
-            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4250071U1" target="_blank"
+            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4250071U1" target="_blank" rel="noreferrer"
               className="button button_white button_small u-margin-bottom-middle">
               <Icon icon="file-text" />
               Currículo Lattes

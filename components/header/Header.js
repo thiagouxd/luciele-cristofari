@@ -51,10 +51,9 @@ export default class Header extends Component {
               <a onClick={() => this.navegar("contato")} className="header__link">Contato</a>
             </li>
           </ul>
-          <button className="button button_icon button_hamburger" onClick={() => this.abrirMenu()}>
+          <button aria-label="Abrir menu" className="button button_icon button_hamburger" onClick={() => this.abrirMenu()}>
             <Icon icon="menu" />
           </button>
-
         </nav>
       </header>
     )

@@ -2,7 +2,7 @@ import Icon from "feather-icons-react"
 
 export const Carousel = (props) => (
   <div className="carousel">
-    <button className="carousel__button carousel__button_left" onClick={() => movimentar("esquerda")}>
+    <button aria-label="Movimentar para esquerda" className="carousel__button carousel__button_left" onClick={() => movimentar("esquerda")}>
       <Icon icon="chevron-left" />
     </button>
     <div className="carousel__container">
@@ -17,7 +17,7 @@ export const Carousel = (props) => (
         })}
       </div>
     </div>
-    <button className="carousel__button carousel__button_right" onClick={() => movimentar("direita")}>
+    <button aria-label="Movimentar para direita" className="carousel__button carousel__button_right" onClick={() => movimentar("direita")}>
       <Icon icon="chevron-right" />
     </button>
   </div>
