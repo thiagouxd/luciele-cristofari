@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { Html } from 'next/document'
 import Header from '../components/header/Header'
 import Home from '../components/home/Home'
 import Especialidades from '../components/sections/especialidades/Especialidades'
@@ -10,7 +9,7 @@ import { descricao } from '../components/sections/sobre-mim/data.json'
 
 export default function Page() {
   return (
-    <Html lang="pt-br">
+    <>
       <Head>
         <title>Drª Luciele Cristofari</title>
         <link rel="icon" href="/favicon.ico" />
@@ -31,6 +30,6 @@ export default function Page() {
       <SobreMim />
       <Depoimentos />
       <Contato />
-    </Html>
+    </>
   )
 }
