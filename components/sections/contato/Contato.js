@@ -14,7 +14,7 @@ export const Contato = () => (
       <p className="paragraphy paragraphy_contato">
         <Icon icon="map-pin" className="icon icon_contato" />
         Av. Dr. Mauricio Cardoso, 833/401, Hamburgo Velho, Novo Hamburgo / RS
-      <a href="https://goo.gl/maps/qe7RNAniQNEdSXnd7" target="_blank"
+      <a href="https://goo.gl/maps/qe7RNAniQNEdSXnd7" target="_blank" rel="noreferrer"
           className="link u-margin-left-middle">
           <span>Ver no mapa</span>
           <Icon icon="arrow-up-right" size="16" />
