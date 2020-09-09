@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Html from 'next/document'
+import { Html } from 'next/document'
 import Header from '../components/header/Header'
 import Home from '../components/home/Home'
 import Especialidades from '../components/sections/especialidades/Especialidades'
