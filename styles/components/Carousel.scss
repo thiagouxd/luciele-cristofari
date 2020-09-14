@@ -31,6 +31,8 @@
   margin: 0 95px;
   border-radius: $middle;
   box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1);
+  max-height: 320px;
+  overflow-y: auto;
   @include smallScreen {
     width: 100%;
     min-width: 75%;

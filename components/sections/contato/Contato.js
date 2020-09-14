@@ -13,7 +13,7 @@ export const Contato = () => (
       </h3>
       <p className="paragraphy paragraphy_contato">
         <Icon icon="map-pin" className="icon icon_contato" />
-        Av. Dr. Mauricio Cardoso, 833/401, Hamburgo Velho, Novo Hamburgo / RS
+        Av. Dr. Mauricio Cardoso, 833 - Sala 401, Hamburgo Velho, Novo Hamburgo / RS
       <a href="https://goo.gl/maps/qe7RNAniQNEdSXnd7" target="_blank" rel="noreferrer"
           className="link u-margin-left-middle">
           <span>Ver no mapa</span>
@@ -32,6 +32,10 @@ export const Contato = () => (
           <span>51 <strong>99726 1372</strong></span>
         </a>
       </div>
+
+      <p className="paragraphy paragraphy_contato">
+        Atendimento de pacientes de <strong>zero a 19 anos</strong>.
+      </p>
     </section>
   </div>
 )

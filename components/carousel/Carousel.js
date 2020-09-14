@@ -10,7 +10,7 @@ export const Carousel = (props) => (
         {props.depoimentos.map(depoimento => {
           return (
             <div className="carousel__item" key={`depoimento${props.depoimentos.indexOf(depoimento)}`}>
-              <blockquote>{depoimento.descricao}</blockquote>
+              <blockquote>"{depoimento.descricao}"</blockquote>
               <p>{depoimento.nome}</p>
             </div>
           )
