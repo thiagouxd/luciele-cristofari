@@ -1,5 +1,5 @@
 import ItensEspecialidades from "./ItemEspecialidades";
-import { especialidades } from "./data.json"
+import especialidades from "./data.json"
 
 
 export default function Especialidades() {
@@ -17,6 +17,7 @@ export default function Especialidades() {
         {especialidades.map(item => (
           <ItensEspecialidades key={`especialidades${especialidades.indexOf(item)}`}
             title={item.title}
+            icon={item.icon}
             paragraphy={item.paragraphy} />))}
       </div>
     </section>

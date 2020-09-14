@@ -28,7 +28,7 @@ export const Contato = () => (
         </a>
 
         <a href="tel:997261372" className="button button_primary button_outline">
-          <Icon icon="smartphone" className="icon icon_contato" />
+          <img src="./whats.svg" alt="" />
           <span>51 <strong>99726 1372</strong></span>
         </a>
       </div>

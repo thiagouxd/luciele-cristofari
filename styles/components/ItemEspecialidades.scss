@@ -25,12 +25,18 @@
   background: $white;
   border: 2px solid $primary;
   box-sizing: border-box;
-  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.05), inset 16px 8px 14px rgba(247, 209, 196, 0.2),
-    inset 4px 4px 7px rgba(247, 209, 196, 0.3), inset -4px -4px 7px #ffffff, inset -8px -16px 16px #ffffff;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.05),
+    inset 16px 8px 14px rgba(247, 209, 196, 0.2),
+    inset 4px 4px 7px rgba(247, 209, 196, 0.3), inset -4px -4px 7px #ffffff,
+    inset -8px -16px 16px #ffffff;
   border-radius: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: $primary;
   margin-bottom: 24px;
+  img {
+    height: 40px;
+    max-width: 48px;
+  }
 }

@@ -15,9 +15,9 @@ export default function Page() {
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500;600;700&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta http-equiv="pragma" content="no-cache" />
+        <meta httpEquiv="pragma" content="no-cache" />
         <meta charset="UTF-8" />
         <meta name="title" content="Drª Luciele Critofari - Endocrinologista Pediátrica" />
         <meta name="description" content={descricao} />

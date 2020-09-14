@@ -11,7 +11,7 @@ export const Carousel = (props) => (
           return (
             <div className="carousel__item" key={`depoimento${props.depoimentos.indexOf(depoimento)}`}>
               <blockquote>{depoimento.descricao}</blockquote>
-              <p>{depoimento.autor}</p>
+              <p>{depoimento.nome}</p>
             </div>
           )
         })}
