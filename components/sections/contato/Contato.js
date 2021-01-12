@@ -48,14 +48,14 @@ export const Contato = () => (
       </p>
 
       <div>
-        <a href="tel:5130198900" className="button button_primary button_outline">
+        <a href="tel:5130973839" className="button button_primary button_outline">
           <Icon icon="phone" className="icon icon_contato" />
-          <span>51 <strong>3019 8900</strong></span>
+          <span>51 <strong>3097 3839</strong></span>
         </a>
 
-        <a href="tel:51998406533" className="button button_primary button_outline">
+        <a href="tel:51997261372" className="button button_primary button_outline">
           <img src="./whats.svg" alt="" />
-          <span>51 <strong>99840 6533</strong></span>
+          <span>51 <strong>99726 1372</strong></span>
         </a>
       </div>
 
