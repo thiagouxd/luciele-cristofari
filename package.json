@@ -16,6 +16,7 @@
     "sass": "^1.26.10"
   },
   "devDependencies": {
+    "@vercel/node": "^2.14.2",
     "file-loader": "^6.0.0"
   }
 }
