@@ -7,5 +7,5 @@ export default function ItensEspecialidades(props) {
       <h3 className="title title_primary">{props.title}</h3>
       <p className="paragraphy">{props.paragraphy}</p>
     </div>
-  )
+  );
 }

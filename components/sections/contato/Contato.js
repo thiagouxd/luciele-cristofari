@@ -44,7 +44,7 @@ export const Contato = () => (
         >
           <img src="./whats.svg" alt="" />
           <span>
-            51<strong>98058-6831</strong>
+            51 <strong>98058 6831</strong>
           </span>
         </a>
       </div>
@@ -85,7 +85,7 @@ export const Contato = () => (
         >
           <img src="./whats.svg" alt="" />
           <span>
-            51<strong>98058-6831</strong>
+            51 <strong>98058 6831</strong>
           </span>
         </a>
       </div>

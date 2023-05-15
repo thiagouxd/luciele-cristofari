@@ -4,4 +4,4 @@ export const InfosLuciele = () => (
     <h3 className="title">Endocrinologista Pediátrica</h3>
     <p className="paragraphy">CREMERS: 35636 / RQE: 31970 / RQE: 31969</p>
   </div>
-)
+);

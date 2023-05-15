@@ -1,5 +1,4 @@
-import React from "react"
-import Icon from "feather-icons-react"
+import React from "react";
 
 export default function HomeSection() {
   return (
@@ -7,7 +6,8 @@ export default function HomeSection() {
       <div className="home__container">
         <div className="home__container_primary">
           <h1 className="title">
-            Endocrinologia e pediatria integradas em uma forma especial de cuidar.
+            Endocrinologia e pediatria integradas em uma forma especial de
+            cuidar.
           </h1>
         </div>
 
@@ -17,5 +17,5 @@ export default function HomeSection() {
         </div>
       </div>
     </div>
-  )
+  );
 }

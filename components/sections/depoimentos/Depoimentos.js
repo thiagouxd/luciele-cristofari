@@ -1,5 +1,5 @@
 import { Carousel } from "../../carousel/Carousel";
-import depoimentos from "./data.json"
+import depoimentos from "./data";
 
 export const Depoimentos = () => (
   <div className="depoimentos" id="depoimentos">
@@ -9,4 +9,4 @@ export const Depoimentos = () => (
       <Carousel depoimentos={depoimentos} />
     </section>
   </div>
-)
+);
