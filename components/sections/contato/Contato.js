@@ -49,47 +49,6 @@ export const Contato = () => (
         </a>
       </div>
 
-      <h3 className="title title_contato u-margem-superior-grande">
-        Porto Alegre
-      </h3>
-      <p className="paragraphy paragraphy_contato">
-        <Icon icon="map-pin" className="icon icon_contato" />
-        Av. Independência, 925 - Conjunto 311, Bairro Independência, Porto
-        Alegre / RS
-        <a
-          href="https://goo.gl/maps/ob51X7Ffhn98UdVH6"
-          target="_blank"
-          rel="noreferrer"
-          className="link u-margin-left-middle"
-        >
-          <span>Ver no mapa</span>
-          <Icon icon="arrow-up-right" size="16" />
-        </a>
-      </p>
-
-      <div>
-        <a
-          href="tel:5130973839"
-          className="button button_primary button_outline"
-        >
-          <Icon icon="phone" className="icon icon_contato" />
-          <span>
-            51 <strong>3097 3839</strong>
-          </span>
-        </a>
-
-        <a
-          href={whatsHref}
-          target="_blank"
-          className="button button_primary button_outline"
-        >
-          <img src="./whats.svg" alt="" />
-          <span>
-            51 <strong>98058 6831</strong>
-          </span>
-        </a>
-      </div>
-
       <p className="paragraphy paragraphy_contato">
         Atendimento de pacientes de <strong>zero a 19 anos</strong>.
       </p>
